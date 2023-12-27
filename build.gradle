@@ -22,7 +22,7 @@ test {
 
 gradlePlugin {
   plugins {
-    simplePlugin {
+    arcgisJavaPlugin {
       id = "com.esri.arcgis-java-plugin"
       implementationClass = "com.esri.ArcGISJavaGradlePlugin"
       displayName = 'ArcGIS Java Gradle Plugin'
