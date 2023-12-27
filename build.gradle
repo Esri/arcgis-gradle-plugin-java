@@ -1,7 +1,8 @@
 plugins {
   id "java"
-  id "java-gradle-plugin"
-  id "maven-publish"
+  id "java-gradle-plugin" // unnecessary now we specify com.gradle.plugin-publish?
+  id "maven-publish" // unnecessary now we specify com.gradle.plugin-publish?
+  id 'com.gradle.plugin-publish' version '1.2.1'
 }
 
 repositories {
@@ -31,6 +32,15 @@ gradlePlugin {
       website = 'https://github.com/ArcGIS/arcgis-gradle-plugin-java'
       vcsUrl = 'https://github.com/ArcGIS/arcgis-gradle-plugin-java'
       tags.set(['java', 'esri', 'arcgis'])
+    }
+  }
+}
+
+publishing {
+  repositories {
+    maven {
+      name = 'localPluginRepository'
+      url = '../local-plugin-repository'
     }
   }
 }
