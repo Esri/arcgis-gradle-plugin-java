@@ -1,6 +1,6 @@
 plugins {
   id 'java-library'
-  id 'com.esri.arcgis-java-plugin' version '0.0.1'
+  id 'com.esri.arcgis-java-plugin' version '0.1.0'
 }
 
 arcgis {
