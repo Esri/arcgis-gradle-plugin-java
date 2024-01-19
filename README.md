@@ -12,7 +12,7 @@ This plugin simplifies the development of Gradle projects that use the
 Open the project you want to apply the plugin to. In your `build.gradle`, add the plugin to the `plugins` block:
 ```groovy
 plugins {
-  id 'com.esri.arcgis-java-plugin' version '0.0.1'
+  id 'com.esri.arcgis-java-plugin' version '0.1.0'
 }
 ```
 
@@ -82,7 +82,7 @@ Esri welcomes contributions from anyone and everyone. Please see our [guidelines
 
 ## Licensing
 
-Copyright 2023 Esri
+Copyright 2024 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
