@@ -42,8 +42,8 @@ gradlePlugin {
       implementationClass = "com.esri.ArcGISJavaGradlePlugin"
       displayName = 'ArcGIS Java Gradle Plugin'
       description = 'A plugin for simplifying the deployment of applications using the ArcGIS Maps SDK for Java'
-      website = 'https://github.com/ArcGIS/arcgis-gradle-plugin-java'
-      vcsUrl = 'https://github.com/ArcGIS/arcgis-gradle-plugin-java'
+      website = 'https://github.com/Esri/arcgis-gradle-plugin-java'
+      vcsUrl = 'https://github.com/Esri/arcgis-gradle-plugin-java'
       tags.set(['java', 'esri', 'arcgis'])
     }
   }
