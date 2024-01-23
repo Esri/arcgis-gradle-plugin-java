@@ -48,13 +48,3 @@ gradlePlugin {
     }
   }
 }
-
-// TODO: remove the following block when we're ready to publish to the Gradle Plugin Portal
-publishing {
-  repositories {
-    maven {
-      name = 'localPluginRepository'
-      url = '../local-plugin-repository'
-    }
-  }
-}
